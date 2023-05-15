@@ -1,0 +1,111 @@
+/************* Base style **************/
+*{
+	box-sizing: border-box;
+}
+h1{
+
+	margin-bottom: 15px;
+	font-size: 70px;
+	text-align: center;
+}
+section{
+	position: relative;
+	padding: 15px;
+	width: 100%;
+
+}
+p{
+	position: relative;
+	clear: right;
+}
+
+div{
+	border: 1px solid black;
+	background-color: #FFF8DC;
+	width: 100%; 
+	margin-right: auto;
+	margin-left: auto;
+
+}
+/******* simple Responsive framework *****/
+.row{
+	width: 100%;
+}
+.content{
+	padding: 5px;
+	font-family: Helvertica;
+	margin:10px;
+	overflow: auto;
+	height: 150px;
+
+}
+.item1{
+	width: 100px;
+	float: right; 
+	margin: 0px 0px 0px 5px;
+	border:2px solid black;
+	background-color: #008B8B;
+	text-align: center;
+	padding: 5px;
+	font-family: Helvertica;
+	font-weight: bold;
+
+
+}
+.item2{
+	width: 100px;
+	float:right; 
+	margin: 0px 0px 0px 5px;
+	border:2px solid black;
+	background-color: #FF7F50;
+	text-align: center;
+	padding: 5px;
+	font-family: Helvertica;
+	font-weight: bold;
+
+}
+.item3{
+	width: 100px;
+	float:right; 
+	margin: 0px 0px 0px 5px;
+	border:2px solid black;
+	background-color: #6495ED;
+	text-align: center;
+	padding: 5px;
+	font-family: Helvertica;
+	font-weight: bold;
+
+}
+/******** Desktop as large device **********/
+@media (min-width: 992px){
+	.col-lg-4{
+		float:left;
+		width: 33.33%
+	}
+}
+
+/******** Tablet as Medium device *******/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.col-md-12{
+		float:left;
+		width: 100%
+		margin-left:auto;
+		margin-right: auto;
+	}
+}
+
+/********Mobile as small device ********/
+@media (max-width: 767px){
+	.col-sm-12{
+		float:left;
+		width: 100;
+	}
+}
+
